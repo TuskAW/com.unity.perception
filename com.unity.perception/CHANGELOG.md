@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 Fixed a bug in instance segmentation labeler that erroneously logged that object ID 255 was not supported
+Fixed the simulation stopping while the editor/player is not focused
+Fixed memory leak or crash occurring at the end of long simulations when using BackgroundObjectPlacementRandomizer or ForegroundObjectPlacementRandomizer
 
 ## [0.6.0-preview.1] - 2020-12-03
 
