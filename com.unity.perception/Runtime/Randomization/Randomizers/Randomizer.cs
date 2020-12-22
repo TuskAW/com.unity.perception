@@ -137,11 +137,5 @@ namespace UnityEngine.Experimental.Perception.Randomization.Randomizers
                 OnStopRunning();
             }
         }
-
-        internal void RandomizeParameterSeeds()
-        {
-            foreach (var parameter in parameters)
-                parameter.RandomizeSamplers();
-        }
     }
 }
