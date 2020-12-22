@@ -9,11 +9,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
+Added ScenarioConstants base class for all scenario constants objects
+
 ### Changed
+
+Unique seeds per Sampler have been replaced with one global random seed configured via the ScenarioConstants of a Scenario
+
+Replaced ScenarioBase.GenerateRandomSeed() with ScenarioBase.NextRandomSeed()
 
 ### Deprecated
 
 ### Removed
+
+Removed ScenarioBase.GenerateRandomSeedFromIndex()
 
 ### Fixed
 
